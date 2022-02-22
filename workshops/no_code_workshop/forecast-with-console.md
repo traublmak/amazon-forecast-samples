@@ -73,7 +73,7 @@ Create the required permissions for Forecast to access S3. The permissions creat
 
 ![IAM Forecast role step 2](pictures/iam_step2.png)
 
-5. Press **Next: Tags** at the bottom right of the screen. No need to enter something on the tag screen that appears next. Press **Next: Review**.
+5. Press **Next** at the bottom right of the screen.
 
 ![IAM Forecast role step 3](pictures/iam_step3.png)
 
