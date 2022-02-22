@@ -161,21 +161,21 @@ Now that the data has been imported, we can start learning a new model from thes
 
 2. Enter an appropriate name in Predictor name. **Forecast horizon** is the time interval for forecasting. In this hands-on, enter **36** to create a forecast of 36-intervals long (for 36 hours in this case):
 
+**Forecast frequency** must be the same as the original data, so select **hour**. Leave default Forecast quantiles.
+
 ![Predictor Continue](pictures/predictor_details.png)
 
-3. **Forecast frequency** must be the same as the original data, so select **hour**. Leave default Forecast quantiles.
+3. Leave **Enable AutoPredictor** as **On** and select **Optimization metric** for **Default**.
+(You can unselect AutoPredictor and explore the list of algorithms that available for training)
 ![Predictor Continue](pictures/predictor_details_2.png)
 
-4. Leave **Enable AutoPredictor** as **On** and select **Optimization metric** for **Default**.
-(You can unselect AutoPredictor and explore the list of algorithms that available for training)
+4. Leave other fileds as default.
 
-5. Leave other fileds as default.
-
-6. Press **Train predictor** with all remaining values unchanged.
+5. Press **Train predictor** with all remaining values unchanged.
 
 ![Predictor Train](pictures/predictor_train.png)
 
-5. Learning has started when the following message is displayed:
+6. Learning has started when the following message is displayed:
 
 ![Predictor Pending](pictures/predictor_pending.png)
 
