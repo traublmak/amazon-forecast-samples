@@ -128,17 +128,17 @@ Then, press **Create dataset group** on the interface below: a dataset group is 
 
 5. Fill **Dataset import details** part
 
-Enter an appropriate name in **Dataset import name**. Enter a path to the file _electricityusagedata.csv_ in your S3 bucket in **Data location**. Paste the newly created IAM Role ARN that you copied in **Custom IAM role ARN**.
+Enter an appropriate name in **Dataset import name**. 
+Enter a path to the file _electricityusagedata.csv_ in your S3 bucket in **Data location**. 
+Paste the newly created IAM Role ARN that you copied in **Custom IAM role ARN**.
 
 ![Forecast Target Dataset](pictures/forecast_import_target_dataset.png)
 
-6. Press **Next**
+6. Press **Start**
 
 7. If the following green bar is displayed, the dataset is set correctly:
 
 ![Forecast import successful](pictures/forecast_dataset_created.png)
-
-Next, click **Import**
 
 
 8. Enter the source data for learning that you uploaded earlier in **Data location** in the following format, and click **Start Import**: `s3://<bucket name>/<file name>`
