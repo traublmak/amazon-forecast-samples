@@ -174,7 +174,11 @@ Now that the data has been imported, we can start learning a new model from thes
 
 ![Predictor Train](pictures/predictor_train.png)
 
-6. Learning has started when the following message is displayed:
+6. Press **View predictors** on Dashboard section:
+7. 
+![Predictor View](pictures/predictors_view.png)
+
+7. Learning has started when the following message is displayed:
 
 ![Predictor Pending](pictures/predictor_pending.png)
 
