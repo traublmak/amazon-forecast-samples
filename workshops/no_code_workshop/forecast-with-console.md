@@ -129,7 +129,9 @@ Then, press **Create dataset group** on the interface below: a dataset group is 
 5. Fill **Dataset import details** part
 
 Enter an appropriate name in **Dataset import name**. 
-Enter a path to the file _electricityusagedata.csv_ in your S3 bucket in **Data location**. 
+
+Enter the source data for learning that you uploaded earlier in **Data location** (file _electricityusagedata.csv_)
+
 Paste the newly created IAM Role ARN that you copied in **Custom IAM role ARN**.
 
 ![Forecast Target Dataset](pictures/forecast_import_target_dataset.png)
@@ -140,17 +142,11 @@ Paste the newly created IAM Role ARN that you copied in **Custom IAM role ARN**.
 
 ![Forecast import successful](pictures/forecast_dataset_created.png)
 
-
-8. Enter the source data for learning that you uploaded earlier in **Data location** in the following format, and click **Start Import**: `s3://<bucket name>/<file name>`
-(Please note that it is different from the URI that can be accessed from the outside).
-
-![Forecast Start Import](pictures/forecast_start_import.png)
-
-9. Import will start and the following screen will appear:
+8. Import will start. You can go in created Dataser group and the following screen will appear:
 
 ![Forecast import dataset pending](pictures/forecast_import_dataset_pending.png)
 
-10. The import is complete when **Active** is displayed in green as shown below. Note that each dataset group can have up to three datasets, one of each dataset type: target time series (like the one we just created), related time series, and item metadata.
+9. The import is complete when **Active** is displayed in green as shown below. Note that each dataset group can have up to three datasets, one of each dataset type: target time series (like the one we just created), related time series, and item metadata.
 
 ![Forecast import dataset active](pictures/forecast_import_dataset_active.png)
 
