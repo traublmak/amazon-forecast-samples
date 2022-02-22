@@ -32,7 +32,7 @@ The S3 bucket must have a reasonably long name because it must be unique across 
 
 ![Create S3 Bucket Dialog Box](pictures/s3_create_bucket_dialog.png)
 
-Click the **Create** button on the bottom left of this dialog box to create an S3 buckets with default parameters.
+Click the **Create** button on the bottom right of this dialog box to create an S3 buckets with default parameters.
 
 4. Click on the name of the created bucket
 
