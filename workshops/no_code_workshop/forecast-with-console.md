@@ -69,7 +69,7 @@ Create the required permissions for Forecast to access S3. The permissions creat
 
 ![IAM Forecast role step 1](pictures/iam_step1.png)
 
-4. Select **Forecast** from **Select a service to view is use cases** and press **Next: Permissions**.
+4. Select **Forecast** from **Choose a service to view is use cases** and press **Next: Permissions**.
 
 ![IAM Forecast role step 2](pictures/iam_step2.png)
 
