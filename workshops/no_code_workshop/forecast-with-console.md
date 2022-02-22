@@ -166,12 +166,11 @@ Now that the data has been imported, we can start learning a new model from thes
 ![Predictor Continue](pictures/predictor_details.png)
 
 3. Leave **Enable AutoPredictor** as **On** and select **Optimization metric** for **Default**.
+
 (You can unselect AutoPredictor and explore the list of algorithms that available for training)
 ![Predictor Continue](pictures/predictor_details_2.png)
 
-4. Leave other fileds as default.
-
-5. Press **Train predictor** with all remaining values unchanged.
+5. Press **Create** with all remaining values unchanged.
 
 ![Predictor Train](pictures/predictor_train.png)
 
