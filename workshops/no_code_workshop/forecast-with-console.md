@@ -142,7 +142,7 @@ Paste the newly created IAM Role ARN that you copied in **Custom IAM role ARN**.
 
 ![Forecast import successful](pictures/forecast_dataset_created.png)
 
-8. Import will start. You can go in created Dataser group and the following screen will appear:
+8. Import will start. You can go in created Dataset group _AmazonForecastWorkshopDatasetGroup_ and the following screen will appear:
 
 ![Forecast import dataset pending](pictures/forecast_import_dataset_pending.png)
 
@@ -163,9 +163,15 @@ Now that the data has been imported, we can start learning a new model from thes
 
 ![Predictor Continue](pictures/predictor_details.png)
 
-3. **Forecast frequency** must be the same as the original data, so select **hour**. Leave **Algorithm selection** as **Manual** and select **ETS** for **Algorithm**.
+3. **Forecast frequency** must be the same as the original data, so select **hour**. Leave default Forecast quantiles.
+![Predictor Continue](pictures/predictor_details_2.png)
 
-4. Press **Train predictor** with all remaining values unchanged.
+4. Leave **Enable AutoPredictor** as **On** and select **Optimization metric** for **Default**.
+(You can unselect AutoPredictor and explore the list of algorithms that available for training)
+
+5. Leave other fileds as default.
+
+6. Press **Train predictor** with all remaining values unchanged.
 
 ![Predictor Train](pictures/predictor_train.png)
 
