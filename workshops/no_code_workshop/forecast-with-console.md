@@ -189,7 +189,9 @@ Now that the data has been imported, we can start learning a new model from thes
 ## Creating a prediction endpoint
 Now that learning is done, let's create an endpoint to request some predictions.
 
-1. Go to Dashboard section.  Click the **Start** button next to the **Generate forecasts** section on the right side of the screen.
+1. Go to Dashboard section.  
+ 
+Click the **Start** button next to the **Generate forecasts** section on the right side of the screen.
 
 ![Forecast start](pictures/generate_forecast_start.png)
  
@@ -197,7 +199,7 @@ Now that learning is done, let's create an endpoint to request some predictions.
 
 ![Forecast details](pictures/generate_forecast_details.png)
  
-3. Press the **Create a forecast** button.
+3. Press the **Start** button.
  
 4. This will take some time, as the prediction endpoint will start:
 
