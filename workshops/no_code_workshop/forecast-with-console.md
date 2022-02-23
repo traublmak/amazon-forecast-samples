@@ -182,7 +182,7 @@ Now that the data has been imported, we can start learning a new model from thes
 
 ![Predictor Pending](pictures/predictor_pending.png)
 
-8. Learning is completed when **Active** is displayed as shown below:
+8. Learning will take some time. Learning is completed when **Active** is displayed as shown below:
 
 ![Predictor Active](pictures/predictor_active.png)
 
@@ -204,6 +204,10 @@ Click the **Start** button next to the **Generate forecasts** section on the rig
 4. This will take some time, as the prediction endpoint will start:
 
 ![Forecast pending](pictures/generate_forecast_pending.png)
+
+On dashboard you also can check status:
+
+![Forecast pending](pictures/generate_forecast_pending_dashboard.png)
 
 5. The following display shows our predictor is ready to servce predictions. You can now predict!
 
