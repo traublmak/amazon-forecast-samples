@@ -175,23 +175,23 @@ Now that the data has been imported, we can start learning a new model from thes
 ![Predictor Train](pictures/predictor_train.png)
 
 6. Press **View predictors** on Dashboard section:
-7. 
+
 ![Predictor View](pictures/predictors_view.png)
 
 7. Learning has started when the following message is displayed:
 
 ![Predictor Pending](pictures/predictor_pending.png)
 
-6. Learning is completed when **Active** is displayed as shown below:
+8. Learning is completed when **Active** is displayed as shown below:
 
 ![Predictor Active](pictures/predictor_active.png)
 
 ## Creating a prediction endpoint
-Now that learning is done, let's create an endpoint to request some predictions:
+Now that learning is done, let's create an endpoint to request some predictions.
+
+1. Go to Dashboard section.  Click the **Start** button next to the **Generate forecasts** section on the right side of the screen.
 
 ![Forecast start](pictures/generate_forecast_start.png)
-
-1. Click the **Start** button next to the **Generate forecasts** section on the right side of the screen.
  
 2．　Enter an appropriate name in **Forecast name**. From the **Predictor** dropdown, select the name you gave to the model trained earlier:
 
