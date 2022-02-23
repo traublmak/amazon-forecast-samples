@@ -221,7 +221,7 @@ Let's make a prediction from the trained predictor:
 
 * *Start Date* – Enter `12/31/2014`. Leave the default time of `00:00:00`.
 * *End date* – Enter `01/02/2015`. Change the time to `12:00:00`.
-* Enter the ID of a client included in the initial data source data in [Value]. (Example: `client_2`)
+* Press **Add forecast key**. Enter the ID of a client included in the initial data source data in [Value]. (Example: `client_1`)
 
 2.　 Pressing [Get Forecast] will output the prediction as a graph as shown below:
 
