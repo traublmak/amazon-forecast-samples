@@ -215,7 +215,7 @@ On dashboard you also can check status:
 
 ## Make a prediction
 Let's make a prediction from the trained predictor:
-1. Press **Look up Forecast**. Then, for **Forecast**, select the name of the endpoint created earlier from the drop-down:
+1. Press **Query Forecast**. Then, for **Forecast**, select the name of the endpoint created earlier from the drop-down:
 
 ![Prediction lookup](pictures/prediction_lookup.png)
 
