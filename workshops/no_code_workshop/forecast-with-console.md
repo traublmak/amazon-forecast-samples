@@ -228,7 +228,3 @@ Let's make a prediction from the trained predictor:
 ![Prediction plot](pictures/prediction_example.png)
  
 The numbers P10, P50, and P90 have a probability of 10%, 50%, and 90%, respectively, and include actual demand. It means that there is an 80% chance (90 - 10 = 80) of being within that range (below the highest value). The larger the number of PXX, the higher the probability that the prediction will fall within that value, but the blur width will increase, so we recommend using the value of P50 first.
-
-# Conclusion
----
-If you want to see how to perform the same kind of operations by using the Amazon Forecast API, you can follow the notebooks and start by the data preparation one.
